@@ -10,3 +10,12 @@
 # multiply_by([1, 2, 3], 5)
 #
 # > [5, 10, 15]
+def multiply_by(li, num):
+  for i in range(len(li)):
+    li[i] *= num
+  
+  return li
+
+solution = multiply_by([1, 2, 3], 5)
+
+print(solution)
